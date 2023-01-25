@@ -26,6 +26,6 @@ function mass(number){
     let res=""
     let kilogram=number/2.205;
     let pound=number*2.205;
-    res=`${number} kilograms = ${pound.toFixed(3)} pounds || ${number} kilogram = ${kilogram.toFixed(3)} kilos`;
+    res=`${number} kilograms = ${pound.toFixed(3)} pounds || ${number} pounds = ${kilogram.toFixed(3)} kilos`;
     kpEl.innerHTML=res;
 }
